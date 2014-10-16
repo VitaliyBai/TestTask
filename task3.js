@@ -23,7 +23,6 @@ $(document).ready(function (argument) {
                         .text(comment)
                         .next()
                         .text(formated_date); 
-
                    flag = false;                 
                    return false;
                     } 
@@ -32,10 +31,6 @@ $(document).ready(function (argument) {
                     return false;
                 }
             })
-
-             
-
-
             target.reset();
         });
      
